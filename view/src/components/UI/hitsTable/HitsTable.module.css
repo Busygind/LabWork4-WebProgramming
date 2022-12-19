@@ -1,7 +1,6 @@
 @import "../../../constants/constants.css";
 
 .table {
-    /*background-color: var(--light-bg);*/
     border: 2px solid var(--custom-border);
     border-radius: 5px;
     width: 100%;
@@ -26,7 +25,7 @@
 
 .clear_button {
     font-family: monospace;
-    border: 0px solid var(--custom-border);
+    border: 0 solid var(--custom-border);
     background-color: var(--main-content);
     border-radius: 5px;
     margin: 1%;

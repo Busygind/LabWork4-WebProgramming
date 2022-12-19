@@ -88,5 +88,4 @@ export default class Service {
         })
         return response
     }
-
 }

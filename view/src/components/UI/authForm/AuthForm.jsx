@@ -19,8 +19,6 @@ const AuthForm = () => {
     const signUp = (e) => {
         setInfo("")
         e.preventDefault()
-        console.log(user.login)
-        console.log(user.password)
         const status = Service.signUpReq(user.login, user.password)
             .then(res => {
                 setInfo("Successfully signed up!")
@@ -29,8 +27,6 @@ const AuthForm = () => {
                 setInfo("Error during sign up, user already exist")
                 console.log('Error during sign up')
             })
-
-
     }
 
     const signIn = (e) => {

@@ -1,6 +1,6 @@
 import React from 'react';
 import VariablesForm from "../components/UI/variablesForm/VariablesForm";
-import {connect, useDispatch, useSelector} from "react-redux";
+import {connect, useSelector} from "react-redux";
 import Graph from "../components/UI/graph/Graph";
 import classes from '../styles/MainPage.module.css'
 import HitsTable from "../components/UI/hitsTable/HitsTable";

@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react';
+import React, {useState} from 'react';
 import {connect, useDispatch, useSelector} from "react-redux";
 import classes from './Graph.module.css'
 import {addHit} from "../../../store/tokenSlice";
@@ -31,8 +31,6 @@ const Graph = (props) => {
         } else {
             console.log(validInfo.error)
         }
-
-        //console.log(hit)
     }
     const onClick = (e) => {
         sendHit(e)
@@ -87,7 +85,6 @@ const Graph = (props) => {
                         );
                     })
                 }
-                {/*<circle id="point" cx={150 + x} cy={150 - y} r="3" stroke="black" strokeWidth="1px" fill="#08D9D6"/>*/}
             </svg>
         </div>
     )

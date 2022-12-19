@@ -9,7 +9,6 @@ import {useDispatch, useSelector} from "react-redux";
 
 function App() {
 
-    const dispatch = useDispatch()
     const isAuth = useSelector(state => state.token.auth)
     function getProtectedRoute(path, component) {
         if (!isAuth) {
@@ -24,16 +23,10 @@ function App() {
             <NavBar/>
             <Routes>
                 <Route exact path="/" element={<EntryPage/>}/>
-                {/*<Route path="/main" element={<MainPage/>}/>*/}
                 {getProtectedRoute("/main", <MainPage/>)}
                 <Route path="*" element={<ErrorPage/>}/>
             </Routes>
-
         </BrowserRouter>
-        // <div className="App">
-        //     <EntryPage/>
-        //
-        // </div>
     );
 }
 

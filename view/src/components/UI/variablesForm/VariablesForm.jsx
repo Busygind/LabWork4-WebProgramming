@@ -37,8 +37,6 @@ const VariablesForm = () => {
         } else {
             console.log(validInfo.error)
         }
-
-        //console.log(hit)
     }
 
     const saveHitToState = (hit) => {

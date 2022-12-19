@@ -10,10 +10,6 @@ root.render(
     <Provider store={store}>
         <App/>
     </Provider>
-    // <div>
-    //   Проверка
-    //     <button> Кнопка </button>
-    // </div>
 
 );
 
