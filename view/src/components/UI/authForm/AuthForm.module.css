@@ -1,0 +1,21 @@
+@import "../../../constants/constants.css";
+
+.authForm {
+    width: 50%;
+    background-color: var(--light-bg);
+    border: 2px solid var(--custom-border);
+    border-radius: 5px;
+    margin: 2% auto auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+}
+
+.buttons_container {
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: var(--light-bg);
+}

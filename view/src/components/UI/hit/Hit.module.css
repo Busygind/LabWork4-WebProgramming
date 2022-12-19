@@ -1,0 +1,6 @@
+.attribute {
+    font-family: monospace;
+    text-align: center;
+    background-color: var(--main-content);
+    font-size: 16px;
+}

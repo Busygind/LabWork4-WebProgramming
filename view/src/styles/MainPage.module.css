@@ -1,0 +1,11 @@
+@import "../constants/constants.css";
+
+.main_container {
+    margin: 2% auto auto;
+    width: 90%;
+    text-align: center;
+    /*display: flex;*/
+    /*flex-direction: column;*/
+
+    background-color: var(--main-bg);
+}

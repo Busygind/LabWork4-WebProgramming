@@ -1,0 +1,10 @@
+@import "../../../constants/constants.css";
+
+.myInput {
+    font-family: monospace;
+    border-radius: 5px;
+    border: 2px solid var(--custom-border);
+    background-color: var(--light-bg);
+    padding: 1px 1px 1px 5px;
+    margin: 5px;
+}

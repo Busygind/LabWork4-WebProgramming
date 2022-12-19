@@ -1,0 +1,10 @@
+@import "../../../constants/constants.css";
+
+.graph {
+    text-align: center;
+    margin: auto;
+    border-radius: 5px;
+    border: 2px solid var(--custom-border);
+    width: 305px;
+    height: 305px;
+}
